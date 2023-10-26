@@ -10,12 +10,11 @@ print('如果鼠标无法点击游戏记录请修改index.py文件')
 print(' ')
 
 #输入循环运行间隔时间及核心信息
-core = input('需要输入查分器更新核心（绝对路径）：')
-print("需要输入b50更新间隔时长（单位：min）：")
+core = input('输入查分器更新核心的绝对路径（路径后可以添加参数）：')
+print("输入b50更新间隔时长（单位：min）")
 tmot = input('输入：')
 tmot = float(tmot)
 fintmot = tmot * 60
-
 
 #循环执行
 while True:
